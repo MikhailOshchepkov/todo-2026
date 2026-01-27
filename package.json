@@ -4,14 +4,15 @@
   "description": "First project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MikhailOshchepkov/todo-2026.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Oshchepkov Mikhail",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -35,7 +36,10 @@
     "jest": "^30.2.0",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
+    "rimraf": "^6.1.2",
     "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
+
 }
