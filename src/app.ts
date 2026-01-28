@@ -1,6 +1,7 @@
 import { config } from "dotenv";
 import express from "express";
 import healthRouter from "./routes/health.router"
+import todosRouter from "./routes/todos.router"
 import { Server } from "node:http";
 
 config();
@@ -11,6 +12,8 @@ function buildApp() {
     app.use(express.json());
 
     app.use("/health", healthRouter);
+
+    app.use('/todos', todosRouter)
 
     app.use((req, res) => {
         res.status(404).json(
