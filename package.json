@@ -4,6 +4,7 @@
   "description": "First project",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.js",
     "dev": "tsx watch src/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
