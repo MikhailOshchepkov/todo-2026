@@ -4,8 +4,10 @@
   "description": "First project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:converage": "jest --coverage"
   },
   "repository": {
     "type": "git",
