@@ -1,14 +1,14 @@
 {
-  "name": "todo-2026",
+  "name": "todo_14_01_2026",
   "version": "1.0.0",
-  "description": "First project",
+  "description": "``` Hello world! ```",
   "main": "index.js",
-  "scripts": {
-    "build": "rimraf dist && tsc -p ./tsconfig.js",
+"scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.json",
     "dev": "tsx watch src/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:converage": "jest --coverage"
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
